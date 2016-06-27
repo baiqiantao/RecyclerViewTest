@@ -4,3 +4,7 @@ RecyclerView基本使用案例，包括LayoutManager、ItemDecoration、ItemAnim
 
 
 ![](http://images2015.cnblogs.com/blog/795730/201606/795730-20160614202234588-197971603.png)
+
+
+
+![](http://images2015.cnblogs.com/blog/795730/201606/795730-20160614202235120-1500504428.png)
