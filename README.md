@@ -1,0 +1,2 @@
+# RecyclerViewTest
+RecyclerView基本使用案例，包括LayoutManager、ItemDecoration、ItemAnimator、点击事件、横向纵向瀑布流等
