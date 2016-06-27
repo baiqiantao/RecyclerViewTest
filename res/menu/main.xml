@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/actionbar_add_icon"
+        android:orderInCategory="100"
+        android:title="添加一个item"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/actionbar_delete_icon"
+        android:orderInCategory="100"
+        android:title="删除一个item"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="100"
+        android:title="普通ListView－LinearLayoutManager"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gridview"
+        android:orderInCategory="100"
+        android:title="竖直GirdView－GridLayoutManager"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/staggeredHorizontalGridView"
+        android:orderInCategory="100"
+        android:title="水平瀑布流－StaggeredGridLayoutM"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/staggeredVerticalGridview"
+        android:orderInCategory="100"
+        android:title="竖直瀑布流－StaggeredGridLayoutM"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/staggeredAdapter"
+        android:orderInCategory="100"
+        android:title="设置随机宽高的adapter－瀑布流效果"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/recyclerViewAdapter"
+        android:orderInCategory="100"
+        android:title="设置固定宽高的adapter－传统效果"
+        app:showAsAction="never"/>
+
+</menu>
